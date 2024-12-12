@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rent-A-Friend</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Rent-A-Friend</h1>
+    </header>
+
+    <!-- Main content section containing the form and result area -->
+    <main>
+      <form id="friend-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required /><br />
+
+        <label for="gender">Gender:</label>
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option></select
+        ><br />
+
+        <label for="contact">Contact Info:</label>
+        <input type="text" id="contact" required /><br />
+
+        <label for="ethnicity">Ethnicity:</label>
+
+        <select id="ethnicity">
+          <option value="black">Black</option>
+          <option value="white">White</option>
+          <option value="asian">Asian</option></select
+        ><br />
+
+        <label for="term">Term:</label>
+        <select id="term">
+          <option value="short">Short Term</option>
+          <option value="long">Long Term</option></select
+        ><br />
+
+        <label for="age">Age:</label>
+        <select id="age">
+          <option value="20s">Early 20’s</option>
+          <option value="40s">Early 40’s</option>
+          <option value="elderly">Elderly</option></select
+        ><br />
+
+        <label for="style">Style:</label>
+        <select id="style">
+          <option value="funny">Funny</option>
+          <option value="thug">Thug</option>
+          <option value="pixy">Pixy</option>
+          <option value="shy">Shy</option></select
+        ><br />
+
+        <label for="occasion">Occasion:</label>
+        <select id="occasion">
+          <option value="holiday">Holiday Party</option>
+          <option value="family">Family Gathering</option>
+          <option value="outdoor">Outdoor Event</option>
+          <option value="business">Business Gathering</option></select
+        ><br />
+
+        <button type="submit">Find Friend</button>
+      </form>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
